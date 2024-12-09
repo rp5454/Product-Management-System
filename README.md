@@ -60,21 +60,37 @@ go run main.go
 Project Structure:
 Product-Management-System/
 ├── main.go                     # Main application entry point
+
 ├── router/                     # API routing logic
+
 │   ├── router.go               # Routes definitions
+
 ├── handlers/                   # API handlers
+
 │   ├── product.go              # Handlers for product APIs
+
 ├── services/                   # Core business logic and integrations
+
 │   ├── redis.go                # Redis integration
+
 │   ├── rabbitmq.go             # RabbitMQ integration
+
 ├── config/                     # Configuration files
+
 │   ├── schema.sql              # Database schema
+
 │   ├── env.go                  # Environment variable loader
+
 ├── models/                     # Data models
+
 │   ├── product.go              # Product model
+
 ├── utils/                      # Utility functions
+
 │   ├── logger.go               # Centralized logging utility
+
 ├── go.mod                      # Go module definition
+
 ├── README.md                   # Project documentation
 
 
